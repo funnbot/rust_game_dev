@@ -25,9 +25,11 @@
                 "env": {
                     // https://github.com/vadimcn/codelldb/issues/632
                     "PATH": "${env:USERPROFILE}/.rustup/toolchains/nightly-x86_64-pc-windows-msvc/bin;${workspaceFolder}/target/debug/deps;${env:PATH}",
+                    "CARGO_MANIFEST_DIR": "${workspaceFolder}",
                 }
             },
             "env": {
+                // why does this get ignored when "windows.env" is present?
                 "CARGO_MANIFEST_DIR": "${workspaceFolder}",
             }
         }
