@@ -25,7 +25,8 @@ opt-level = 1
 opt-level = 3
 
 [profile.release]
-lto = "thin"
+# seems to break windows builds
+# lto = "thin"
 
 [workspace]
 resolver = "2"
