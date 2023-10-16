@@ -25,6 +25,7 @@ opt-level = 1
 opt-level = 3
 
 [profile.release]
+debug = 1 # limited
 # seems to break windows builds
 # lto = "thin"
 
