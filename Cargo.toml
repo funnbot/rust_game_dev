@@ -10,7 +10,7 @@ publish = false
 
 [dependencies.bevy]
 git = "https://github.com/bevyengine/bevy"
-rev = "e1904bc"
+rev = "0cc1179"
 features = [
     # remove dynamic_linking when sharing executables
     "dynamic_linking",
